@@ -6,6 +6,11 @@ PHP client library for the CloudStack User API v2.2 (Reference : http://download
 Generate with the CloudStack client generator [qpleple/cloudstack-client-generator](https://github.com/qpleple/cloudstack-client-generator),
 others languages are available. Check out this project to know more about it.
 
+Changes to the original:
+	* Uses PHP's curl instead of PECL HttpRequest
+	* Replaced each 4 whitespaces by a tabulator
+
+
 Examples
 --------
 
